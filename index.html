@@ -16,7 +16,7 @@
   <!-- main container for the entire page -->
   <container class="main">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg menu">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">JAA</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,28 +31,67 @@
               <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Contact</a>
+              <a class="nav-link">Gallery</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- Hero aka Showcase Section -->
-    <section class="hero">
-      <h1>Jeanne's Apple Art</h1></section>
-    <!-- Apple Art Section -->
-    <section class="apple"></section>
+    <section class="hero .container-fluid">
+      <!-- Carousel -->
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+      
+        
+        
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner img-car">
+          <div class="carousel-item active">
+            <img src="la.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="chicago.jpg" alt="Chicago" class="d-block" style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="ny.jpg" alt="New York" class="d-block" style="width:100%">
+          </div>
+        </div>
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active bg-dark"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1" class="active bg-dark"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2" class="active bg-dark"></button>
+        </div>
+        
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev bg-dark" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next bg-dark car-caret" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </section>
     <!-- Decoration and Arrangement Art Section -->
-    <section class="decor"></section>
+    <section class="decor">
+      <h1>Jeanne's Decorative Art</h1>
+    </section>
+    <!-- Gallery Section -->
+    <section class="gallery">
+      <h1>Gallery</h1>
+    </section>
+
+  
+  <footer></footer>
+  </container>
     <!-- Start Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-
   <!-- Automatically Updates the Year to Date at the beginning of each year -->
   <script>
-    // Get the current year for the copyright
-    // $('#year').text(new Date().getFullYear());
+    Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
   </script>
-  </container>
 
 </body>
 

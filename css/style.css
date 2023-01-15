@@ -1,8 +1,21 @@
 /* Custom CSS file for JAA website */
-container>section.hero {
-    background-color: #ffb1c8;
-    height: 80vh;
+html,
+body {
+    background-color: #ffbbda;
 }
-container>section>.hero>h1 {
-    text-align: center;
+.menu {
+    background-color: #b37a8b;
+}
+.main {
+    max-width: 100vw;
+    max-height: 80vh;
+}
+
+.hero {
+    min-height: 80vh;
+}
+
+/* Carousel */
+.car-caret {
+    
 }
