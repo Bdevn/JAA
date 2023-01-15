@@ -26,4 +26,6 @@ body {
 .greeting>img {
     height: 9rem;
     width: 7rem;
+    border: 2px solid #b37a8b;
+    border-radius: 50%;
 }
