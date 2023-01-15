@@ -12,10 +12,14 @@ body {
 }
 
 .hero {
-    min-height: 80vh;
+    min-height: auto;
 }
 
 /* Carousel */
-.car-caret {
-    
+.img-car>button {
+    max-width: 3rem;
+}
+
+.greeting {
+    text-align: center;
 }

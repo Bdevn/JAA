@@ -25,13 +25,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link">Gallery</a>
+              <a class="nav-link" href="index.html#gallery">Gallery</a>
             </li>
           </ul>
         </div>
@@ -54,28 +51,31 @@
           </div>
         </div>
         <!-- Indicators/dots -->
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active bg-dark"></button>
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="1" class="active bg-dark"></button>
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="2" class="active bg-dark"></button>
+        <div class="carousel-indicators img-car">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2" class="active bg-muted"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1" class="active bg-muted"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active bg-muted"></button>
         </div>
-        
         <!-- Left and right controls/icons -->
-        <button class="carousel-control-prev bg-dark" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <button class="carousel-control-prev bg-dark" type="button" data-bs-target="#demo" data-bs-slide="next">
           <span class="carousel-control-prev-icon"></span>
         </button>
-        <button class="carousel-control-next bg-dark car-caret" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <button class="carousel-control-next bg-dark car-caret" type="button" data-bs-target="#demo" data-bs-slide="prev">
           <span class="carousel-control-next-icon"></span>
         </button>
-      </div>
+    </div>
+    </section>
+    <!-- Greeting -->
+    <section class="greeting">
+      <h4>Welcome to Jeanne's Apple Art!</h4>
     </section>
     <!-- Decoration and Arrangement Art Section -->
     <section class="decor">
-      <h1>Jeanne's Decorative Art</h1>
+      <h4>Decorative Art</h4>
     </section>
     <!-- Gallery Section -->
-    <section class="gallery">
-      <h1>Gallery</h1>
+    <section class="gallery" id="gallery">
+      <h4>Gallery</h4>
     </section>
 
   
@@ -86,9 +86,11 @@
   <!-- Automatically Updates the Year to Date at the beginning of each year -->
   <script>
     // Get the current year for the copyright
-    $('#year').text(new Date().getFullYear());
+    // $('#year').text(new Date().getFullYear());
   </script>
-
+<!-- <li class="nav-item">
+  <a class="nav-link active" aria-current="page" href="#">Home</a>
+</li> -->
 </body>
 
 </html>
