@@ -1,0 +1,29 @@
+{
+  "name": "jaa",
+  "version": "1.0.0",
+  "description": "a node installation to control custom boostrap variables used in the JAA website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bdevn/JAA.git"
+  },
+  "keywords": [
+    "Jeanne",
+    "Marie",
+    "Apple",
+    "Art",
+    "JAA"
+  ],
+  "author": "Bdevn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bdevn/JAA/issues"
+  },
+  "homepage": "https://github.com/Bdevn/JAA#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
