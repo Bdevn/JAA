@@ -1,0 +1,11 @@
+/* Main CSS file for JAA website */
+container>section.hero {
+    background-color: #333333;
+    height: 80vh;
+}
+container>section>.apple {
+    background-color: #666666;
+}
+container>section>.decor {
+    background-color: #333333;
+}
