@@ -23,3 +23,7 @@ body {
 .greeting {
     text-align: center;
 }
+.greeting>img {
+    height: 9rem;
+    width: 7rem;
+}
