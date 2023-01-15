@@ -1,14 +1,8 @@
-/* Main CSS file for JAA website */
+/* Custom CSS file for JAA website */
 container>section.hero {
-    background-color: var(--bs-blue);
+    background-color: #ffb1c8;
     height: 80vh;
 }
-container>section.hero>h1 {
+container>section>.hero>h1 {
     text-align: center;
-}
-container>section>.apple {
-    background-color: #666666;
-}
-container>section>.decor {
-    background-color: #333333;
 }
