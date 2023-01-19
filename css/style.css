@@ -40,3 +40,7 @@ container>.page {
     border: 2px solid #b37a8b;
     border-radius: 50%;
 }
+section.gallery>h4,
+section.decor>h4 {
+    text-align: center;
+}
