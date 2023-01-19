@@ -19,12 +19,17 @@ container>.page {
 }
 
 .hero {
+    display: flex;
+    justify-content: center;
     min-height: auto;
+    max-width: 80rem;
+    margin: 0 auto;
 }
 
 /* Carousel */
 .img-car>button {
     max-width: 3rem;
+    border-radius: 10rem;
 }
 
 .greeting {
