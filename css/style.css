@@ -29,7 +29,6 @@ container>.page {
 /* Carousel */
 .img-car>button {
     max-width: 3rem;
-    border-radius: 10rem;
 }
 
 .greeting {
