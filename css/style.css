@@ -55,11 +55,18 @@ h6 {
     border-radius: 2rem;!important
     border: 1px solid #ffbbda;!important
 }
+.learn-more:hover {
+    background-color: #731963;
+}
+/* .learn-more:active {
+    background-color: #731963;
+} */
 .card-body {
     text-align: center;
-    max-width: 80vw;
+    max-width: 100vw;
     margin: 0 auto 1rem auto;
     text-align: justify;
+    border: 1px solid #731963;
     background-color: #9F769A;
     color: #ffbbda;
 }
