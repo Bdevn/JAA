@@ -14,25 +14,18 @@ body {
     max-height: 80vh;
 }
 
-container>.page {
-    max-width: 80rem;
-}
-
-.hero {
-    display: flex;
-    justify-content: center;
-    min-height: auto;
-    max-width: 80rem;
-    margin: 0 auto;
-}
-
 /* Carousel */
 .img-car>button {
     max-width: 3rem;
 }
 
-.greeting {
+.greeting,
+.gallery,
+.decor {
+    padding: 2rem;
+    margin: 2rem auto;
     text-align: center;
+    border: 1px solid #b37a8b;
 }
 .greeting>img {
     height: 9rem;
