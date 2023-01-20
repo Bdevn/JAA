@@ -3,13 +3,18 @@ html,
 body {
     background-color: #ffbbda;
 }
-.menu {
-    background-color: #b37a8b;
+.menu,
+.greeting,
+.gallery,
+.decor {
+    background-color: #9F769A;
 }
 .logo {
     background-image: url(./img/jaaLogo-36);
 }
 .main {
+    box-sizing: border-box;
+    margin: auto auto 2rem auto;
     max-width: 100vw;
     max-height: 80vh;
 }
@@ -23,15 +28,18 @@ body {
 .gallery,
 .decor {
     padding: 2rem;
-    margin: 2rem auto;
+    margin: 1rem auto 2rem auto;
     text-align: center;
-    border: 1px solid #b37a8b;
+    border: 1px solid #731963;
 }
 .greeting>img {
     height: 9rem;
     width: 7rem;
-    border: 2px solid #b37a8b;
+    border: 2px soli #ffbbda;
     border-radius: 50%;
+}
+.hero {
+    padding: 0;
 }
 section.gallery>h4,
 section.decor>h4 {
