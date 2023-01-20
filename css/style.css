@@ -47,6 +47,7 @@ h6 {
 /* Carousel */
 .img-car>button {
     max-width: 3rem;
+    margin: 0 auto 2rem auto;
 }
 #learn-more {
     justify-content: center;
