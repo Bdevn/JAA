@@ -15,9 +15,11 @@ h6 {
 .navbar-nav,
 .menu,
 .gallery,
+.music,
 .jewelry,
 .decor,
-.about {
+.learn-more
+{
     text-transform: uppercase;
     background-color: #9F769A;
     color: #ffbbda;
@@ -46,10 +48,25 @@ h6 {
 .img-car>button {
     max-width: 3rem;
 }
+#learn-more {
+    justify-content: center;
+    width: 15vw;
+    border-radius: 3rem;
+    background-color: #731963;
+    border: 1px solid #ffbbda;
+}
+.card-body {
+    text-align: center;
+    max-width: 80vw;
+    margin: 0 auto 1rem auto;
+    text-align: justify;
+}
+.learn-more,
 .jewelry,
 .gallery,
 .decor,
-.about {
+.music 
+{
     padding: 2rem;
     margin: 1rem auto 2rem auto;
     text-align: center;
