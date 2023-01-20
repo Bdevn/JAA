@@ -3,12 +3,14 @@ html,
 body {
     background-color: #ffbbda;
 }
-.menu,
-.greeting,
+.navbar-toggler,
+.navbar-nav,.menu,
 .gallery,
 .decor {
+    text-transform: uppercase;
     background-color: #9F769A;
-}
+    color: #ffbbda;
+  }
 .logo {
     background-image: url(./img/JAA-logo-69.png);
 }
@@ -23,20 +25,26 @@ body {
 .img-car>button {
     max-width: 3rem;
 }
-
-.greeting,
 .gallery,
 .decor {
     padding: 2rem;
     margin: 1rem auto 2rem auto;
     text-align: center;
     border: 1px solid #731963;
+    margin: 1rem auto 2rem auto;
+}
+.greeting {
+    text-align: center;
+    background-color: #9F769A;
+    color: #ffbbda;
+    margin: 1rem auto 1rem auto;
 }
 .greeting>img {
     height: 9rem;
     width: 7rem;
     border: 2px soli #ffbbda;
     border-radius: 50%;
+    margin: 0;
 }
 .hero {
     padding: 0;
