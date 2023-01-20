@@ -51,8 +51,8 @@ h6 {
 #learn-more,
 .button {
     justify-content: center;
-    width: 25vw;
-    border-radius: 3rem;!important
+    width: 50vw;
+    border-radius: 2rem;!important
     border: 1px solid #ffbbda;!important
 }
 .card-body {
@@ -87,6 +87,10 @@ h6 {
     border: 2px soli #ffbbda;
     border-radius: 50%;
     margin: 0;
+}
+.greeting>h4 {
+    width: 100%;
+    text-align: center;
 }
 .hero {
     padding: 0;
