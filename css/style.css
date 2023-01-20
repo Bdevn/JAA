@@ -3,14 +3,27 @@ html,
 body {
     background-color: #ffbbda;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 1rem;
+}
 .navbar-toggler,
-.navbar-nav,.menu,
+.navbar-nav,
+.menu,
 .gallery,
-.decor {
+.decor,
+.about {
     text-transform: uppercase;
     background-color: #9F769A;
     color: #ffbbda;
   }
+.nav-link {
+    color: #ffbbda;
+}
 .logo {
     background-image: url(./img/JAA-logo-69.png);
 }
@@ -26,18 +39,19 @@ body {
     max-width: 3rem;
 }
 .gallery,
-.decor {
+.decor,
+.about {
     padding: 2rem;
     margin: 1rem auto 2rem auto;
     text-align: center;
     border: 1px solid #731963;
-    margin: 1rem auto 2rem auto;
+    margin: 2rem auto;
 }
 .greeting {
     text-align: center;
     background-color: #9F769A;
     color: #ffbbda;
-    margin: 1rem auto 1rem auto;
+    margin: 0 auto 1rem auto;
 }
 .greeting>img {
     height: 9rem;
@@ -52,4 +66,18 @@ body {
 section.gallery>h4,
 section.decor>h4 {
     text-align: center;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    margin: 1rem auto 2rem auto;
+    text-align: center;
+    border: 1px solid #731963;
+    margin: 1rem auto 2rem auto;
+}
+.footer>a {
+    text-decoration: none;
+    color: #731963;
+    border: 1px solid #ffbbda;
 }
