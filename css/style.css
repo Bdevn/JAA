@@ -83,6 +83,7 @@ h6 {
     margin: 2rem auto;
 }
 .greeting {
+    max-width: 100vw;
     text-align: center;
     background-color: #9F769A;
     color: #ffbbda;
