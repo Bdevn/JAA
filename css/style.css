@@ -15,12 +15,20 @@ h6 {
 .navbar-nav,
 .menu,
 .gallery,
+.jewelry,
 .decor,
 .about {
     text-transform: uppercase;
     background-color: #9F769A;
     color: #ffbbda;
   }
+.nav-item {
+    text-align: center;
+}
+.tgl-btn,
+.navbar-toggler-icon {
+    color: #ffbbda;  
+}
 .nav-link {
     color: #ffbbda;
 }
@@ -38,6 +46,7 @@ h6 {
 .img-car>button {
     max-width: 3rem;
 }
+.jewelry,
 .gallery,
 .decor,
 .about {
