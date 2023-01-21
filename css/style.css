@@ -180,4 +180,8 @@ div>img.arrowUp {
         width: 90vw;
         }
     }
+    #learn-more:hover,
+    .button:hover {
+        background-color: #731963;
+    }
   
