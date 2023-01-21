@@ -65,11 +65,11 @@ nav.navbar {
     background-color: #731963;
 } */
 .card-body {
-    background-image: url(/img/MotD-pause-bg.png);
+    background-image: url(./img/MotD-pause-bg.png);
     background-position: center center;
     background-repeat: no-repeat, repeat;
     text-align: center;
-    max-width: 100vw;
+    max-width: 40vw;
     margin: 0 auto 1rem auto;
     text-align: justify;
     border: 1px solid #731963;
@@ -101,13 +101,21 @@ nav.navbar {
 .greeting>img {
     height: 9rem;
     width: 7rem;
-    border: 2px soli #ffbbda;
+    border: 2px solid #ffbbda;
     border-radius: 50%;
     margin: 0;
 }
 .greeting>h4 {
     width: 100%;
     text-align: center;
+}
+iframe {
+    z-index: 10;
+    border: 1px solid #731963;
+}
+.votd {
+    display: flex;
+    justify-content: center;
 }
 .hero {
     padding: 0;
