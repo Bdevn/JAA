@@ -100,6 +100,13 @@ h6 {
     width: 100%;
     text-align: center;
 }
+.card-body {
+    background-image: url(/img/MotD-pause-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat, repeat;
+    max-width: 900px;
+    width: 100%;
+}
 .hero {
     padding: 0;
 }
