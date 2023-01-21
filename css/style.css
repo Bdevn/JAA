@@ -116,6 +116,7 @@ iframe {
 .votd {
     display: flex;
     justify-content: center;
+    margin: 0auto 1rem auto;
 }
 .hero {
     padding: 0;
