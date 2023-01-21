@@ -113,10 +113,10 @@ iframe {
     z-index: 10;
     border: 1px solid #731963;
 }
-.votd {
+div.votd {
     display: flex;
     justify-content: center;
-    margin: 0auto 1rem auto;
+    margin: 0 auto 1rem auto;
 }
 .hero {
     padding: 0;
