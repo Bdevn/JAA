@@ -67,9 +67,10 @@ nav.navbar {
     background-color: #731963;
 } */
 .card-body {
-    background-image: url(/img/MotD-pause-bg.png);
+    background-image: url(./img/MotD-pause-bg.png);
     background-position: center center;
     background-repeat: no-repeat, repeat;
+    background-color: #731963;
     text-align: center;
     max-width: 40vw;
     margin: 0 auto 1rem auto;
@@ -162,7 +163,7 @@ div>img.arrowUp {
         margin: 0 auto 1rem auto;
     }
     .card-body {
-        background-image: url(/img/MotD-pause-bg.png);
+        background-image: url(./img/MotD-pause-bg.png);
         background-position: center center;
         background-repeat: no-repeat, repeat;
         text-align: center;
