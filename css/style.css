@@ -150,10 +150,11 @@ div>img.arrowUp {
 /* media querries */
 @media screen and (max-width: 900px) {
     .greeting {
-      min-width: 100vw;
+      width: 100vw;
       border-radius: 0;
     }
     .card-body {
+        width: 100vw;
         border-radius: 0;
     }
     #learn-more,
